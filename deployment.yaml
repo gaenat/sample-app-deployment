@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: gaenat/sample-app:latest
+        image: gaenat/sample-app:1.1
         name: sample-app
         ports:
         - containerPort: 8080
